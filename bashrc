@@ -1,4 +1,5 @@
 # ~/.bashrc
+
 #
 
 # If not running interactively, don't do anything
@@ -46,4 +47,7 @@ alias lset="light -S"
 alias config="vim ~/.config/i3/config"
 alias mute="amixer sset Master mute"
 alias unmute="amixer sset Master unmute"
-
+alias penis="echo Suck My Dick"
+alias la="ls -la"
+alias padon="xinput set-prop 11 'Device Enabled' 1"
+alias padoff="xinput set-prop 11 'Device Enabled' 0"
